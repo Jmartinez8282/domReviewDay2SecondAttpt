@@ -3,8 +3,10 @@ let colNum = document.getElementById('colNum');
 let pTagNum = document.getElementById('pTagNum');
 let goBtn = document.getElementById('goBtn');
 let elementArea = document.getElementById('elementArea');
+   
 
 goBtn.addEventListener('click', function (e) {
+    elementArea.innerHTML="";
   for (let r = 0; r < rowNum.value; r++) {
     let row = document.createElement('div');
     row.setAttribute('class', "row");
