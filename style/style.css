@@ -13,3 +13,9 @@
     border: 1px blue solid;
     margin: 5px;
 }
+body{
+    background-color: black;
+}
+p{
+    color:white
+}
